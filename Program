@@ -1,0 +1,9 @@
+number = 0
+while number < 10:
+  print "GCI is great"
+  number = number +1
+  
+name = raw_input("What is your name?")
+print "Hello " + name + ", please to meet you!"
+namereverse = name[::-1]
+print "Did you know that your name backwards is " + namereverse + "?"
